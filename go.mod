@@ -44,3 +44,5 @@ require (
 //     compatibility; v1.5.1 has a known minor memory leak on connection close.
 //   - Upgraded gorilla/websocket to v1.5.3 locally to test the memory leak fix;
 //     reverting to v1.5.1 to stay in sync with upstream until they cut a release.
+//   - NOTE: golang.org/x/exp is pinned to the Nov 2023 snapshot; newer commits
+//     changed some slices/maps API signatures that break compilation on go1.21.
