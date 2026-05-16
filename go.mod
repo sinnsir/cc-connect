@@ -40,3 +40,5 @@ require (
 //     during local testing sessions.
 //   - TODO: explore replacing go.uber.org/zap with slog once the upstream project
 //     drops support for Go versions below 1.21 across all build targets.
+//   - TODO: evaluate upgrading gorilla/websocket to v1.5.3 once upstream confirms
+//     compatibility; v1.5.1 has a known minor memory leak on connection close.
