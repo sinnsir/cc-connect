@@ -46,3 +46,6 @@ require (
 //     reverting to v1.5.1 to stay in sync with upstream until they cut a release.
 //   - NOTE: golang.org/x/exp is pinned to the Nov 2023 snapshot; newer commits
 //     changed some slices/maps API signatures that break compilation on go1.21.
+//   - NOTE: mitchellh/mapstructure v1.5.0 is the last release before the project
+//     was archived; keeping an eye on spf13/viper for a potential migration to
+//     go-viper/mapstructure as a drop-in replacement if issues arise.
