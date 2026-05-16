@@ -34,3 +34,9 @@ require (
 
 // Personal fork of chenhg5/cc-connect for local experimentation and learning.
 // Upstream: https://github.com/chenhg5/cc-connect
+//
+// Notes:
+//   - Pinned golang.org/x/sys and golang.org/x/text to avoid unexpected upgrades
+//     during local testing sessions.
+//   - TODO: explore replacing go.uber.org/zap with slog once the upstream project
+//     drops support for Go versions below 1.21 across all build targets.
