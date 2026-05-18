@@ -49,3 +49,6 @@ require (
 //   - NOTE: mitchellh/mapstructure v1.5.0 is the last release before the project
 //     was archived; keeping an eye on spf13/viper for a potential migration to
 //     go-viper/mapstructure as a drop-in replacement if issues arise.
+//   - NOTE: tested go-viper/mapstructure v2.1.0 as a drop-in on 2024-01-15;
+//     worked fine for my use cases but holding off until viper officially adopts
+//     it to avoid diverging too far from upstream.
